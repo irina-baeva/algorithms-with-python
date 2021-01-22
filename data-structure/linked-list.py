@@ -32,7 +32,7 @@ class LinkedList(object):
     def insert_at_beginning(self, value):
         new_node = Node(value)
         new_node.set_next(self.head) #head element now became the next
-        self.head = new_node # new element now bacame th head
+        self.head = new_node # new element now became the head
     def append(self, value):
         new_element = Node(value)
         current = self.head
@@ -50,15 +50,7 @@ class LinkedList(object):
             current = current.get_next()
         return total
 
-    def display(self):
-        elems=[]
-        current_node=self.head
-        if self.head:
-            while current_node.next != None:
-                current_node=current_node.next
-                elems.append(current_node.value)
-        print(elems)
-        print(self.length())
+
     def get(self, index):
         if index >= self.length():
             print('error: index is out of range')
@@ -81,10 +73,18 @@ class LinkedList(object):
             last_node=current_node
             current_node=current_node.next
             if current_index==index:
-                last_node.next = current_node.next # skipping element
-                return
+                last_node.next = current_node.next # skipping element (remove)
             current_index +=1
-
+            #display is helper function
+    def display(self):
+        elems=[]
+        current_node=self.head
+        if self.head:
+            while current_node.next != None:
+                current_node=current_node.next
+                elems.append(current_node.value)
+        print(elems)
+        print(self.length())
 linked_list1 = LinkedList()
 linked_list1.display() # []
 linked_list1.append(2)
