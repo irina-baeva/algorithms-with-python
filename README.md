@@ -2,7 +2,7 @@
 
 ## The goal
 ```s
-To learn analysis of algorithms and data structure
+To learn how to analyse algorithms and use different data structure
 ```
 
 ### Reqired libraries:
@@ -41,6 +41,10 @@ jupyter notebook
 * hash tables
 * graphs
 * trees
+
+### Code examples:
+1. refer to the folder <i>./algorithms/ </i> for algorithms examples
+1. refer to the folder <i>./data-structure/ </i> for data structure examples
 
 ---
 Author: Irina Baeva
