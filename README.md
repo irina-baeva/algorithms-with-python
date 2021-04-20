@@ -45,6 +45,16 @@ jupyter notebook
 ### Code examples:
 1. refer to the folder <i>./algorithms/ </i> for algorithms examples
 1. refer to the folder <i>./data-structure/ </i> for data structure examples
+### Learning resources:
+
+<br> <a src="https://classroom.udacity.com/courses/ud513">Udacity "Data Structures & Algorithms in Python</a>
+<br> <a src="https://learning.edx.org/course/course-v1:HarvardX+CS50+X/">CS50's Introduction to Computer Science</a>
+<br> Grokking Algorithms: An illustrated guide for programmers and other curious people. Aditya Bhargava
+<br> <a src=" https://www.youtube.com/c/BackToBackSWE"> Back To Back SWE. YouTube.</a>
+
+### Learning resources (WIP):
+<br> <a src=""> Coursera</a>
+
 
 ---
 Author: Irina Baeva
