@@ -1,9 +1,9 @@
 # Portfolio for SE_02 Algorithms and Data Structures
 
 ## The goal
-```s
-To learn how to analyse algorithms and use different data structure
-```
+
+<b> To learn how to analyse algorithms and to use different data structures </b>
+
 
 ### Reqired libraries:
 * matplotlib
@@ -21,7 +21,25 @@ Clone the project
 git clone https://github.com/irina-baeva/algorithms-with-python.git
 ```
 
-Running the project
+Create virtual environment
+
+```s
+python3 -m venv .venv
+```
+
+Activate virtual environment
+
+```s
+source .venv/bin/activate
+```
+
+To install the latest releases of libraries, you can use pip
+
+```s
+pip install matplotlib numpy binarytree ipycytoscape
+```
+
+Running the project - run the following from the root folder: 
 
 ```s
 jupyter notebook
@@ -29,7 +47,7 @@ jupyter notebook
 
 ### Portfolios:
 
-1. algorithms-portfolio.ipynb:
+1. algorithms-portfolio-searching-sorting.ipynb:
 * Asymptotic notation
 * Time complexity theory
 * Asymptotic analysis of searching and sorting algorithms
@@ -41,6 +59,7 @@ jupyter notebook
 * hash tables
 * graphs
 * trees
+* linked lists
 
 ### Code examples:
 1. refer to the folder <i>./algorithms/ </i> for algorithms examples
@@ -49,6 +68,7 @@ jupyter notebook
 ### Print pdf versions:
 
 refer to the folder  <i>./print-version-pdf/ </i>
+
 ### Learning resources:
 
 <br> <a src="https://classroom.udacity.com/courses/ud513">Udacity "Data Structures & Algorithms in Python</a>
